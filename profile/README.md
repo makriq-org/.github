@@ -1,5 +1,5 @@
 <p align="center">
-  <strong>Pragmatic infrastructure, routing, and network tooling.</strong>
+  <strong>Прагматичная инфраструктура, маршрутизация и сетевые инструменты.</strong>
 </p>
 
 <p align="center">
@@ -12,39 +12,36 @@
   <a href="https://github.com/makriq-org/short-key-list">short-key-list</a>
   ·
   <a href="https://github.com/makriq-org/FlClash">FlClash</a>
-  ·
-  <a href="https://github.com/makriq-org/gov-and-it-pkg-names">gov-and-it-pkg-names</a>
 </p>
 
 ---
 
-## What we build
+## Что мы делаем
 
-`makriq-org` maintains compact, production-oriented tooling around:
+`makriq-org` поддерживает компактные production-ориентированные инструменты вокруг:
 
-- network client configuration and distribution
-- public routing artifacts and redirect-backed delivery
-- Android package lists for split-tunneling and bypass flows
-- opinionated infrastructure with explicit operational docs
+- конфигурации и раздачи сетевых клиентских профилей
+- публичных артефактов маршрутизации и доставки через redirect-слой
+- списков Android-пакетов для split-tunneling и сценариев обхода
+- инфраструктуры с явной эксплуатационной документацией
 
-The emphasis is simple: small moving parts, reproducible behavior, and artifacts that are easy to inspect.
+Фокус простой: минимум движущихся частей, воспроизводимое поведение и артефакты, которые легко проверить вручную.
 
-## Public repositories
+## Публичные репозитории
 
-| Repository | Focus |
+| Репозиторий | Назначение |
 | --- | --- |
-| [`sys-cfg`](https://github.com/makriq-org/sys-cfg) | Public service files, maintained routing rules, helper lists, and the redirect layer that exposes stable URLs. |
-| [`short-key-list`](https://github.com/makriq-org/short-key-list) | Curated and checked VLESS key list with deduplication and historical scoring. |
-| [`FlClash`](https://github.com/makriq-org/FlClash) | Independent `FlClash` fork with attention to Android usability, privacy, and cleaner releases. |
-| [`gov-and-it-pkg-names`](https://github.com/makriq-org/gov-and-it-pkg-names) | Public package masks for Russian government and major Russian IT Android apps. |
+| [`sys-cfg`](https://github.com/makriq-org/sys-cfg) | Публичные служебные файлы, поддерживаемые правила маршрутизации, вспомогательные списки и redirect-слой со стабильными URL. |
+| [`short-key-list`](https://github.com/makriq-org/short-key-list) | Курируемый и проверяемый список VLESS-ключей с дедупликацией и историческим скорингом. |
+| [`FlClash`](https://github.com/makriq-org/FlClash) | Независимый форк `FlClash` с упором на удобство Android, приватность и более аккуратные релизы. |
 
-## Working style
+## Стиль работы
 
-- concise repositories instead of monoliths
-- public artifacts separated from private runtime state
-- documentation that explains operational intent, not just file names
-- stable URLs and predictable update paths for client-side integrations
+- компактные репозитории вместо монолитов
+- разделение публичных артефактов и приватного runtime-состояния
+- документация, объясняющая эксплуатационный смысл, а не только имена файлов
+- стабильные URL и предсказуемые пути обновления для клиентских интеграций
 
-## Notes
+## Примечания
 
-Some operational components stay private by design. The public side of the organization is intended to expose reusable artifacts, forks, and infrastructure-adjacent tooling without turning the org into a dump of internal state.
+Часть эксплуатационных компонентов намеренно остаётся закрытой. Публичная сторона организации предназначена для публикации переиспользуемых артефактов, форков и околоинфраструктурных инструментов, а не для превращения org в свалку внутреннего состояния.

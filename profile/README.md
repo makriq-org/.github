@@ -11,7 +11,7 @@
   ·
   <a href="https://github.com/makriq-org/short-key-list">short-key-list</a>
   ·
-  <a href="https://github.com/makriq-org/FlClash">FlClash</a>
+  <a href="https://github.com/makriq-org/FlClashM">FlClashM</a>
 </p>
 
 ---
@@ -21,6 +21,7 @@
 `makriq-org` поддерживает компактные production-ориентированные инструменты вокруг:
 
 - конфигурации и раздачи сетевых клиентских профилей
+- Android-клиента для `mihomo` со встроенными сетевыми узлами
 - публичных артефактов маршрутизации и доставки через redirect-слой
 - списков Android-пакетов для split-tunneling и сценариев обхода
 - инфраструктуры с явной эксплуатационной документацией
@@ -33,7 +34,7 @@
 | --- | --- |
 | [`sys-cfg`](https://github.com/makriq-org/sys-cfg) | Публичные служебные файлы, поддерживаемые правила маршрутизации, вспомогательные списки и redirect-слой со стабильными URL. |
 | [`short-key-list`](https://github.com/makriq-org/short-key-list) | Курируемый и проверяемый список VLESS-ключей с дедупликацией и историческим скорингом. |
-| [`FlClash`](https://github.com/makriq-org/FlClash) | Независимый форк `FlClash` с упором на удобство Android, приватность и более аккуратные релизы. |
+| [`FlClashM`](https://github.com/makriq-org/FlClashM) | Android-клиент для `mihomo` со встроенными узлами `NaiveProxy`, `ByeDPI` и `OlcRTC`, split-tunneling из профиля и встроенным апдейтером. |
 
 ## Стиль работы
 
